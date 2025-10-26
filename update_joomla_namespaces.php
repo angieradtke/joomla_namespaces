@@ -18,6 +18,7 @@ $classMappings = [
     'JLanguageAssociations' => 'Associations',
     'JUri' => 'Uri',
     'JRoute' => 'Route',
+    'JRegistry' => 'Registry',
     'JApplication' => 'Factory::getApplication()',
     'JUser' => 'Factory::getUser()',
     'JDatabase' => 'Factory::getContainer()->get("DatabaseDriver")',
@@ -35,6 +36,7 @@ $useStatements = [
     'use Joomla\CMS\Layout\LayoutHelper;',
     'use Joomla\CMS\Router\Route;',
     'use Joomla\CMS\Uri\Uri;',
+    'use Joomla\Registry\Registry;'
 ];
 
 /**
